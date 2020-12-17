@@ -1,3 +1,3 @@
 ## Preview
 
-![Circular Navigation](./gif/2.gif)
+![Circular Navigation](../gif/2.gif)
