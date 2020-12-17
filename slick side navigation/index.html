@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Slick Slide Nav Plugin Demo</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="overlay"></div>
+  <header>
+    <div class="navBtn">+</div>
+    <nav> <a href="">Home</a> <a href="">About</a> <a href="">Contact</a> </nav>
+  </header>
+  <div class="main"> <img id="hero" src="http://i.imgur.com/X8B40Gf.png" alt="" />
+    <article>
+      <h3>jQuery Slick Slide Nav Plugin Demo</h3>
+      <div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam condimentum porttitor velit, sed euismod risus pretium eu. Integer vulputate auctor odio vitae pretium. Sed vel lacinia velit. Nunc molestie laoreet ullamcorper. Sed consectetur augue odio, ac tempus risus porttitor id. Pellentesque eget scelerisque risus. Integer interdum dui eget nunc venenatis iaculis. Ut vel aliquet orci, sed tincidunt dolor. Mauris eget sem commodo, commodo nibh eu, ultricies ante. Sed id erat tellus. Donec ante tellus, pharetra et volutpat porta, lacinia pulvinar sapien. Nunc a accumsan velit. Duis nisi lorem, rhoncus eget tortor a, condimentum tincidunt lectus. Donec dignissim blandit auctor.</p>
+<p>Curabitur pulvinar elit eget lorem ullamcorper, sed blandit orci pellentesque. Quisque imperdiet, velit vitae tincidunt elementum, mauris turpis aliquam ligula, et tincidunt enim diam eu leo. In ac elit vitae mi rutrum vulputate. Mauris molestie lacinia viverra. Vestibulum consectetur metus id tristique mattis. Nam sollicitudin elit commodo gravida ultrices. Vivamus leo massa, pellentesque sit amet augue vel, sollicitudin convallis lacus. Fusce adipiscing, sem eget varius pulvinar, ligula massa pretium massa, in ullamcorper tortor enim a neque. Curabitur pretium, dui et porta congue, ante elit pharetra lectus, quis imperdiet est lorem sit amet nibh.</p>
+<p>In faucibus placerat tellus, sit amet euismod urna mollis eget. Suspendisse eu ante faucibus nulla bibendum interdum at a metus. Suspendisse porttitor mollis mauris, eu euismod odio tempus non. Morbi porttitor molestie nulla, eget hendrerit nibh convallis in. Nam eu nibh dui. Nunc sed justo pulvinar, rhoncus mi nec, pretium purus. Suspendisse nec dictum magna. Quisque molestie ipsum tincidunt tellus rutrum, id volutpat nisl rutrum.</p>
+<p>Proin et velit interdum libero auctor auctor a in turpis. Ut convallis tristique nisl id fermentum. Aliquam at elit diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elit nulla, dapibus vitae ligula non, mollis euismod mi. In tempor risus eu leo feugiat, et commodo mi dapibus. Aenean iaculis orci sem, sed commodo velit pulvinar a. In in ornare nulla, a pretium metus. Suspendisse ultrices, nibh ut sodales tincidunt, eros ligula posuere eros, eu mollis erat arcu non ante. Etiam auctor eleifend risus, molestie facilisis risus condimentum at.</p>
+<p>Proin eu lorem lobortis, consectetur erat non, interdum dui. Praesent convallis velit in urna eleifend faucibus. Aliquam lacinia, magna sit amet auctor tristique, est nunc placerat ante, sed vestibulum augue mauris vel tortor. Proin ut elit sapien. Nam feugiat justo et nibh ultrices, eget molestie neque tincidunt. Fusce ultricies tortor eros, non vulputate turpis condimentum eget. Proin viverra justo eu ipsum tempus, non sagittis ipsum hendrerit. Duis porta hendrerit lectus, id mattis neque eleifend in. Pellentesque consequat nec magna ut varius. Nulla vestibulum odio a ipsum sollicitudin dictum. Morbi imperdiet nunc eget tellus fermentum consequat. Suspendisse ut diam tristique, viverra metus commodo, suscipit eros. Nullam facilisis, ligula vel molestie volutpat, urna orci fermentum nisl, ac malesuada augue risus at orci. Quisque sit amet sagittis tortor, id dapibus nibh. Etiam sit amet fermentum elit.</p>
+
+    </article>
+  </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script>
+$(document).ready(function () {	
+
+  var toggleMenu = function() {
+	  $('header').toggleClass('toggle');
+	  $('.main').toggleClass('push');
+	  $('.overlay').toggleClass('block');
+	  $('#social, .logo').toggleClass('reveal');
+  };
+
+	//Nav
+	$('.navBtn').click(function() {
+    toggleMenu();
+	});
+
+  Mousetrap.bind('esc', function() {
+    toggleMenu();
+  });
+
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
